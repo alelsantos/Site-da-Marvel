@@ -1,116 +1,64 @@
-body {
-    background-color: cornsilk;
-    
-  }
-
-  h1{
-      color: blueviolet;
-    text-align: center;
-    
-  }
-
-  .coluna{
-    float: left;
-    width: 33.33%;
-    
-
-  }
-
-        
-  img{
-    width:200px; 
-    height:200px;
-    position: relative;
-    top: 10%; 
-    left: 25%;
-  }
-  p{
-    position: relative;
-    top: 10%; 
-    left: 25%;
-  }
-
-     
-    .buscar-caja {  
-      position: absolute;
-      top: 7%;
-      left: 15%;
-      transform: translate(-50%, -50%);
-      background: #2f3640;
-      height: 40px;
-      border-radius: 40px;
-      padding: 5px;
-     }
-     
-     .buscar-caja:hover > .buscar-txt {
-      width: 240px;
-      padding: 0px;
-     }
-     
-     .buscar-caja:hover > .buscar-btn {
-      background: white;
-      color: black;
-     }
-     
-     .buscar-btn {
-      color: #e84118;
-      float: right;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: #2f3640;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: 0.4s;
-      color: white;
-      cursor: pointer;
-     }
-     
-     .buscar-btn > i {
-      font-size: 30px;
-     }
-     
-     .buscar-txt {
-      border: none;
-      background: none;
-      outline: none;
-      float: left;
-      padding: 0;
-      color: white;
-      font-size: 16px;
-      transition: 0.4s;
-      line-height: 40px;
-      width: 0px;
-      font-weight: bold;
-     }
-
-     .Icones {
-       width: 900px;
-       margin: 70px auto;
-       text-align: center;
+ 
+ header {
+  grid-area: header;
+  background-color: #9F0404;
+  height: 80px;
+}
 
 
+body{ margin: 0 0;
+   display: grid;
+   grid-template-areas: "header header header header"
+               "nav nav nav nav"
+               "main main main main"
+               " footer footer footer footer";}
 
-     }
-
-
-     .Icones > a {
-
-      color: black;
-      font-size: 20px;
-      margin: 0 15px;
-     }
-
-
-
-     .Login{
-
-      position : absolute;
-      right: 55px;
-      
+.logo {
+  font-family: Bauhaus 93;
+  margin-left: 70px;
+  margin-top: 18px;
+  color: white;
+}
 
 
+.faixa { 
+  background-color: black;
+  height: 10px;
+ }
 
-     }
 
+.botao a{
+  text-decoration: none;
+  color: white;
+
+}
+
+ 
+#bt1 {display: inline-block;
+         width: 70px; 
+         height: 35px;
+         border: 2px solid black;
+         background-color: black;
+         font-weight: bolder;
+         font-size: 100%;
+           border-radius: 10px;
+           line-height: 2;
+           position: absolute;
+           right: 200px;
+           top: 5px;
+           margin-top: 18px;}
+
+#bt2 {display: inline-block;
+         width: 120px; 
+         height: 35px;
+         border: 2px solid black;
+         background-color: black;
+         font-weight: bolder;
+         font-size: 100%;
+           border-radius: 10px;
+           line-height: 2;
+           position: absolute;
+           right: 70px;
+           top: 5px;
+           margin-top: 18px;}
+ 

@@ -1,0 +1,210 @@
+ 
+ header {
+    grid-area: header;
+    background-color: #9F0404;
+    height: 80px;
+}
+
+
+
+body{ margin: 0 0;
+       display: grid;
+       background:
+       grid-template-areas: "header header header header"
+                               "nav nav nav nav"
+                               "main main main main"
+                               " footer footer footer footer";}
+
+.logo { margin-left: 70px;
+        margin-top: 20px;
+                            }
+
+
+.faixa { 
+         background-color: black;
+         height: 8px;
+         margin-top: 15px;
+                             }
+
+/* */
+.botao a {
+    text-decoration: none;
+        color:white;
+
+}
+
+ 
+#bt1 {
+    display: inline-block;
+    width: 90px; 
+    height: 35px;
+    border: 2px solid #9F0404;
+    background-color: #9F0404;
+    font-weight: bolder;
+    font-size: 100%;
+    border-radius: 10px;
+    line-height: 2;
+    position: absolute;
+    right: 200px;
+    top: 5px;
+    margin-top: 18px;}
+
+#bt2 {
+    display: inline-block;
+    width: 138px; 
+    height: 35px;
+    border: 2px solid #9F0404;
+    background-color: #9F0404;
+    font-weight: bolder;
+    font-size: 100%;
+    border-radius: 10px;
+    line-height: 2;
+    position: absolute;
+    right: 70px;
+    top: 5px;
+    margin-top: 18px;
+} 
+
+#bt3 {
+    display: inline-block;
+    width: 138px; 
+    height: 35px;
+    border: 2px solid #9F0404;
+    background-color: #9F0404;
+    font-weight: bolder;
+    font-size: 100%;
+    border-radius: 10px;
+    line-height: 2;
+    position: absolute;
+    right: 70px;
+    top: 5px;
+    margin-top: 18px;
+} 
+
+
+                 .menu-pp{
+
+
+                    padding: 0px;
+                    margin-top: 0;
+                }
+                
+              .menu-p{
+                    font: Arial, Bold;
+                    background: blue;
+                    background-size: 100%;
+                }
+                
+                ul{
+                
+                    list-style: none;
+                  
+                    
+                }
+                
+        ul li   a{
+                    text-decoration: none;
+                    color: black;
+                    background-color:white;
+                    display: block;
+                    padding: 0px 20px;
+                
+                }
+                
+                ul li a:hover{
+                
+                    color: black;
+                }
+                
+                nav{
+                    text-align: center;
+                    background:white ,3;
+                    margin-top: 60px;
+                    position: fixed;
+                    width: 100%;
+                    top: 40px;
+                    margin-left: 330px;
+                    margin-top: 45px;
+
+                    
+                }
+                
+                ul#ul-principal{
+                    background-color:white;
+                    width: 90%;
+                    margin: auto;
+                
+                
+                
+                }
+                
+                
+                .li-p{
+                
+                
+                    line-height: 50px;
+                    float: left;
+                    
+                }
+                
+                ul li ul li {
+                
+                background-color: white;
+                color:black;
+                
+                }
+                
+                
+                .ul-comics{
+                
+                    display: none;
+                
+                }
+                
+                
+                .ul-mangas{
+                
+                    display: none;
+                }
+                
+                
+                .ul-biblioteca{
+                
+                display: none;
+                
+                
+                }
+
+                footer
+                {
+                    grid-area:footer;
+                    text-align: center;
+                    color:white;
+                    background-color: black;
+                   font-family: arial ;
+                   font-size: 70%;
+                   margin-bottom: 0;
+                }
+                
+                .gibs{
+
+
+
+
+
+                    
+                }
+
+             
+                
+                    
+                   
+                                
+                
+
+
+
+                
+                
+ 
+                 
