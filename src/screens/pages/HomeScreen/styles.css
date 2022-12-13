@@ -1,0 +1,325 @@
+header {
+  grid-area: header;
+  background-color: #ffffff;
+  width: 1512px;
+  height: 115px;
+ 
+}
+
+body {
+  margin: 0 0;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "main main main main"
+    " footer footer footer footer";
+ 
+  background-size: 100%;
+}
+
+.logo {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+#bt1 {
+  display: inline-block;
+  width: 135px;
+  height: 45px;
+  left: 1333px;
+  top: 41px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #8cc1ff;
+  background-color: #8cc1ff;
+  border-color: #8cc1ff;
+  font-weight: bolder;
+  font-size: 100%;
+  line-height: 2;
+  position: absolute;
+}
+
+nav {
+  font-family: Arial, blod;
+  text-align: center;
+  position: fixed;
+  margin-left: 564px;
+  margin-top: 57px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  display: block;
+  padding: 0px 20px;
+}
+
+ul li a:hover {
+  color: #0074fc;
+}
+
+#ul-principal {
+  width: 100%;
+  margin: auto;
+}
+
+.li-p {
+  /* FONTE DO MENU */
+
+  font: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27.6px;
+  float: left;
+  /* text-decoration-line: underline;   */
+  
+  
+}
+
+.popup-wrapper {
+  /* Layout Properties */
+  font: normal normal bold 17px Arial;
+  text-align: center;
+
+  right: 30%;
+  display: none;
+  top: 9%;
+  left: 78%;
+  letter-spacing: 0px;
+  line-height: 25px;
+  width: 500px; /* largura do do popup */
+  height: 33px;
+  position: absolute;
+
+  /* UI Properties */
+}
+
+.popup-wrapper {
+  /* Layout Properties */
+  font: normal normal bold 17px Arial;
+  text-align: center;
+
+  right: 30%;
+  display: none;
+  top: 0%;
+  left: 78%;
+  letter-spacing: 0px;
+  line-height: 25px;
+  width: 500px; /* largura do do popup */
+  height: 33px;
+  position: absolute;
+
+  /* UI Properties */
+}
+
+.text-l {
+  /* TEXTO PRINCIPAL DO LOGIN */
+
+  top: 180px;
+  left: 1462px;
+  width: 317px;
+  height: 30px;
+  text-align: center;
+  font: normal normal bold 25px Arial;
+  letter-spacing: px;
+  color: #000000;
+  opacity: 1;
+}
+
+.popup {
+  /* box login e s*/
+
+  font-family: arial;
+  text-align: center;
+  width: 280%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 40px;
+  background: white;
+  position: relative;
+}
+
+.popup a {
+  color: white;
+  cursor: pointer;
+  padding: 6px 10px;
+  text-decoration: none;
+  background: crimson;
+  line-height: 65px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#InputSenha,
+#inputEndereco {
+  width: 200px;
+  height: 35px;
+}
+
+main {
+display: flex;
+align-items: center;
+justify-items: center;
+height: 95vh;
+background: linear-gradient(180deg, #8CC1FF 39.37%, rgba(0, 116, 252, 0.9) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 30px 30px;
+height: 410px;
+width: 1513px;
+}
+
+
+
+#App1{
+    height: 349px;
+    width: 168px;
+    left: -146px;
+    top: 144px;
+    margin-top: 10px;
+
+}
+
+#App2{
+width: 164px;
+height: 347px;
+left: 9298px;
+top: 144px;
+
+}
+
+#textMenu{
+
+    position: absolute;
+    height: 109px;
+    width: 453px;
+    left: 530px;
+    top: 279px;
+    font-family: ABeeZee;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    
+}
+
+#section{
+
+
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 65px;
+    top: 561px;
+    
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #000000;
+
+
+}
+
+    #textApp{
+
+position: absolute;
+width: 272px;
+height: 40px;
+margin-left: 1072px;
+top: 271px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 34px;
+color: #000000;
+
+    }
+
+    #textSection{
+
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        left: 65px;
+        top: 561px;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 6px;
+
+    }
+
+    #linha{
+      
+position: absolute;
+width: 1388px;
+height: 0px;
+left: 57px;
+top: 607px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+#GooglePlay{
+
+    position: absolute;
+    width: 127px;
+    height: 36px;
+    left: 1051px;
+    top: 341px;
+    
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+   
+}
+
+#AppStore{
+
+
+top: 341px;
+border-radius: 5px;
+width: 127px;
+height: 36px;
+left: 1238px;
+background: #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+button{
+    background: linear-gradient( #8CC1FF 39.37%, rgba(0, 116, 252, 0.9) 100%);
+    border: none;
+    flex-direction: row;
+}
+
+footer {
+  color: white;
+  font-family: arial 18px;
+  background-color: #707070;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}

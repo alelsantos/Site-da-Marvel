@@ -1,210 +1,450 @@
- 
- header {
-    grid-area: header;
-    background-color: #9F0404;
-    height: 80px;
+header {
+  grid-area: header;
+  background-color: #9f0404;
+  height: 80px;
 }
 
+body {
+  margin: 0 0;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "main main main main"
+    " footer footer footer footer";
+  background: url(Imagem/marvel.jpg); /* COMO COLOCAR FUNDO */
+  background-size: 100%;
+}
 
+.logo {
+  margin-left: 70px;
+  margin-top: 20px;
+}
 
-body{ margin: 0 0;
-       display: grid;
-       background:
-       grid-template-areas: "header header header header"
-                               "nav nav nav nav"
-                               "main main main main"
-                               " footer footer footer footer";}
-
-.logo { margin-left: 70px;
-        margin-top: 20px;
-                            }
-
-
-.faixa { 
-         background-color: black;
-         height: 8px;
-         margin-top: 15px;
-                             }
+.faixa {
+  background-color: black;
+  height: 8px;
+  margin-top: 15px;
+}
 
 /* */
 .botao a {
-    text-decoration: none;
-        color:white;
-
+  text-decoration: none;
+  color: white;
 }
 
- 
 #bt1 {
-    display: inline-block;
-    width: 90px; 
-    height: 35px;
-    border: 2px solid #9F0404;
-    background-color: #9F0404;
-    font-weight: bolder;
-    font-size: 100%;
-    border-radius: 10px;
-    line-height: 2;
-    position: absolute;
-    right: 200px;
-    top: 5px;
-    margin-top: 18px;}
+  display: inline-block;
+  width: 94px;
+  height: 35px;
+  border: 2px solid #9f0404;
+  background-color: #9f0404;
+  font-weight: bolder;
+  font-size: 100%;
+  border-radius: 10px;
+  line-height: 2;
+  position: absolute;
+  right: 200px;
+  top: 5px;
+  margin-top: 18px;
+}
 
 #bt2 {
-    display: inline-block;
-    width: 138px; 
-    height: 35px;
-    border: 2px solid #9F0404;
-    background-color: #9F0404;
-    font-weight: bolder;
-    font-size: 100%;
-    border-radius: 10px;
-    line-height: 2;
-    position: absolute;
-    right: 70px;
-    top: 5px;
-    margin-top: 18px;
-} 
+  display: inline-block;
+  width: 142px;
+  height: 35px;
+  border: 2px solid #9f0404;
+  background-color: #9f0404;
+  font-weight: bolder;
+  font-size: 100%;
+  border-radius: 10px;
+  line-height: 2;
+  position: absolute;
+  right: 70px;
+  top: 5px;
+  margin-top: 18px;
+}
 
 #bt3 {
-    display: inline-block;
-    width: 138px; 
-    height: 35px;
-    border: 2px solid #9F0404;
-    background-color: #9F0404;
-    font-weight: bolder;
-    font-size: 100%;
-    border-radius: 10px;
-    line-height: 2;
-    position: absolute;
-    right: 70px;
-    top: 5px;
-    margin-top: 18px;
-} 
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  border: 2px solid #9f0404;
+  background-color: #9f0404;
+  font-weight: bolder;
+  font-size: 100%;
+  border-radius: 10px;
+  line-height: 2;
+  position: absolute;
+  right: 42px;
+  top: 5px;
+  margin-top: 18px;
+}
 
+nav {
+  text-align: center;
+  background: color #000;
+  position: fixed;
+  width: 652px;
+  height: 28px;
+  margin-left: 550px;
+  margin-top: 5px;
+  margin-top: auto;
+}
 
-                 .menu-pp{
+.menu-pp {
+  font: Arial, Bold;
+  padding: 0px;
+  margin-top: 0;
+}
 
+.menu-p {
+  /* Layout Properties */
 
-                    padding: 0px;
-                    margin-top: 0;
-                }
-                
-              .menu-p{
-                    font: Arial, Bold;
-                    background: blue;
-                    background-size: 100%;
-                }
-                
-                ul{
-                
-                    list-style: none;
-                  
-                    
-                }
-                
-        ul li   a{
-                    text-decoration: none;
-                    color: black;
-                    background-color:white;
-                    display: block;
-                    padding: 0px 20px;
-                
-                }
-                
-                ul li a:hover{
-                
-                    color: black;
-                }
-                
-                nav{
-                    text-align: center;
-                    background:white ,3;
-                    margin-top: 60px;
-                    position: fixed;
-                    width: 100%;
-                    top: 40px;
-                    margin-left: 330px;
-                    margin-top: 45px;
+  top: 152px;
+  left: 0px;
+  width: 1920px;
+  height: 55px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
 
-                    
-                }
-                
-                ul#ul-principal{
-                    background-color:white;
-                    width: 90%;
-                    margin: auto;
-                
-                
-                
-                }
-                
-                
-                .li-p{
-                
-                
-                    line-height: 50px;
-                    float: left;
-                    
-                }
-                
-                ul li ul li {
-                
-                background-color: white;
-                color:black;
-                
-                }
-                
-                
-                .ul-comics{
-                
-                    display: none;
-                
-                }
-                
-                
-                .ul-mangas{
-                
-                    display: none;
-                }
-                
-                
-                .ul-biblioteca{
-                
-                display: none;
-                
-                
-                }
+ul {
+  list-style: none;
+}
 
-                footer
-                {
-                    grid-area:footer;
-                    text-align: center;
-                    color:white;
-                    background-color: black;
-                   font-family: arial ;
-                   font-size: 70%;
-                   margin-bottom: 0;
-                }
-                
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  display: block;
+  padding: 0px 20px;
+}
+
+ul li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+ul#ul-principal {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+.li-p {
+  /* FONTE DO MENU */
+
+  font: Arial, bold;
+  line-height: 50px;
+  float: left;
+}
+
+ul li ul li {
+  background-color: black;
+  color: black;
+}
+
+.ul-comics {
+  display: none;
+}
+
+.ul-mangas {
+  display: none;
+}
+
+.ul-biblioteca {
+  display: none;
+}
+
+/*
+
                 .gibs{
 
 
 
 
+                }
+                
+                .gibs1{
 
+                    /* Layout Properties 
+                    width: 213px;
+                    height: 299px;
+                    margin-left:10px;
+                    margin-top: 65px;
+                    background: transparent url('img/Imagem 1.png') 0% 0% no-repeat padding-box;
+
+                  
                     
                 }
 
-             
-                
+
+
+                .gibs2{
+
+                    top: 338px;
+                    left: 846px;
+                    width: 197px;
+                    height: 299px;
+                   UI Properties 
+                    background: transparent url('img/Imagem 2.png') 0% 0% no-repeat padding-box;
+                    opacity: 1;
                     
-                   
-                                
-                
+                    
+                    
+                }
 
 
 
-                
-                
- 
-                 
+                .gibs{
+
+                    top: 338px;
+                    left: 846px;
+                    width: 197px;
+                    height: 299px;
+                    /* UI Properties 
+                                       background: transparent url('img/Imagem 2.png') 0% 0% no-repeat padding-box;
+                    opacity: 1;
+                    
+             }
+
+                            */
+
+.buscar-p {
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  border: 1px solid #9f0404;
+  background-color: #9f0404;
+  font-weight: bolder;
+  font-size: 100%;
+  border-radius: 5px;
+  line-height: 2;
+  position: absolute;
+  right: 20px;
+  left: 1100px;
+  top: 5px;
+  margin-top: 50px;
+}
+
+.buscar-p:hover > .buscar-txt {
+  /* BARRA BUSCAR   */
+  width: 240px;
+  padding: 0px;
+}
+botao .buscar-p:hover > .buscar-btn {
+  /* BOTAO QUE APARECE   */
+  background: white;
+  padding: 0px;
+}
+
+.buscar-btn {
+  color: #9f0404;
+  background: #9f0404;
+  font: italic normal normal 30px/34px Arial;
+  float: right;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+}
+
+.buscar-btn > i {
+  font-size: 20px;
+}
+
+.buscar-txt {
+  /* FORMATAÇÃO DO  TEXTO  BOTAO   */
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 0px;
+  width: 0px;
+  font-weight: bold;
+}
+
+.borycarrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.carrossel {
+  box-shadow: 2px 2px 4px black;
+  overflow: hidden;
+  height: 299px;
+  width: 213px;
+}
+
+.container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.img {
+  object-fit: cover;
+  height: 299px;
+  width: 213px;
+}
+
+.margemgibis {
+  /* Layout Properties */
+  top: 314px;
+  left: 162px;
+  width: 442px;
+  height: 608px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 8px 8px 8px #f6f6f6, 8px 8px 8px #f2f0f0;
+  opacity: 1;
+}
+
+.hq1 {
+  /* Layout Properties */
+  color: #000000;
+  top: 338px;
+  left: 268px;
+  width: 213px;
+  height: 299px;
+  /* UI Properties */
+  background: transparent url("img/Imagem 1.png") 0% 0% no-repeat padding-box;
+  border: 67px solid #ffffff;
+  opacity: 1;
+  top: 314px;
+}
+
+.emBreve {
+  position: absolute;
+  text-align: center;
+  font: 79px Arial bold;
+  width: 50%;
+  height: 50%;
+  left: 22%;
+  margin: auto;
+  margin-bottom: 60%;
+  box-shadow: inset 6px 6px 6px #00000029, 6px 6px 6px #00000029;
+  padding: 0 40px;
+  opacity: 90%;
+  background-color: #ffffff;
+}
+
+button {
+  box-sizing: border-box;
+  display: block;
+  margin: 20px auto;
+  background: crimson;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.popup-wrapper {
+  /* Layout Properties */
+  font: normal normal bold 17px Arial;
+  text-align: center;
+
+  right: 30%;
+  display: none;
+  top: 9%;
+  left: 78%;
+  letter-spacing: 0px;
+  line-height: 25px;
+  width: 500px; /* largura do do popup */
+  height: 33px;
+  position: absolute;
+
+  /* UI Properties */
+}
+
+.popup-wrapper {
+  /* Layout Properties */
+  font: normal normal bold 17px Arial;
+  text-align: center;
+
+  right: 30%;
+  display: none;
+  top: 0%;
+  left: 78%;
+  letter-spacing: 0px;
+  line-height: 25px;
+  width: 500px; /* largura do do popup */
+  height: 33px;
+  position: absolute;
+
+  /* UI Properties */
+}
+
+.text-l {
+  /* TEXTO PRINCIPAL DO LOGIN */
+
+  top: 180px;
+  left: 1462px;
+  width: 317px;
+  height: 30px;
+  text-align: center;
+  font: normal normal bold 25px Arial;
+  letter-spacing: px;
+  color: #000000;
+  opacity: 1;
+}
+
+.popup {
+  /* box login e s*/
+
+  font-family: arial;
+  text-align: center;
+  width: 280%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 40px;
+  background: white;
+  position: relative;
+}
+
+.popup a {
+  color: white;
+  cursor: pointer;
+  padding: 6px 10px;
+  text-decoration: none;
+  background: crimson;
+  line-height: 65px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#InputSenha,
+#inputEndereco {
+  width: 200px;
+  height: 35px;
+}
+
+footer {
+  color: white;
+  font-family: arial 25px;
+  background-color: #707070;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}

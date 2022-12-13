@@ -1,0 +1,184 @@
+form{
+
+    width: 50%;
+    height: 42%;
+    margin:  auto;
+    margin-bottom: 60%;
+    box-shadow: inset 6px 6px 6px #00000029, 6px 6px 6px #00000029;
+    padding: 0 40px;
+    opacity: 90%;
+    background-color: #FFFFFF;
+
+}
+
+form input[type=text]{
+
+color:#000000;
+background-color:#F2F0F0;
+
+
+
+}
+
+form input[type=number]{
+
+    color:#000000;
+    background-color: #F2F0F0;
+    
+    
+    }
+
+
+    form input[type=date]{
+
+        color:#666666;
+        background-color:#F2F0F0;
+        
+        
+        }
+
+input, textarea{
+
+    width: 87%;
+    padding: 4px auto;
+    margin-bottom:1em;
+    font-family: 1em ;
+    width: 300px;   /* ALTURA DA BARRA */
+    height: 30px;
+
+}
+
+
+label{  /* ALTURA DO ELEMENTO */
+
+    padding-bottom: 5px;
+    display: inline-block;
+    
+    
+    
+}
+
+
+.btLimpar{
+    background-color: black;
+    color: white;
+    top: 893px;
+    left: 1121px;
+    width: 142px;
+    height: 49px;
+    /* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    cursor: pointer;
+    
+
+}
+
+
+Form input[type=radio]{
+
+    height: 20px;
+    width: 20px;
+    
+    
+
+
+
+}
+
+.btCadastrar{
+
+background-color: #9F0404;
+color: white;
+top: 893px;
+left: 1287px;
+width: 155px;
+height: 49px;
+/* UI Properties */
+background: #9F0404 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+cursor: pointer;
+
+
+}
+
+
+
+
+.button-p{
+
+margin-left: 65%;
+cursor: pointer;
+
+
+}
+
+.genero{
+
+/* Layout Properties */
+top: 586px;
+left: 638px;
+height: 28px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal Arial;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+
+}
+
+span{
+
+    margin-left: 13px;
+    font-size: 15px;
+    margin-right: 10%;
+
+
+}
+
+
+fieldset{
+
+border-radius: 5px;
+}
+
+
+.botao-l{
+
+
+}
+
+
+.cadastro-t
+{
+
+    /* Layout Properties */
+top: 351px;
+left: 504px;
+width: 302px;
+height: 28px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 25px/29px Arial;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.cadastro-p{
+
+    top: 170px;
+    left: 864px;
+    width: 192px;
+    height: 39px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 35px/40px Arial;
+    letter-spacing: 0px;
+    color: #9F0404;
+    opacity: 1;
+    position: absolute;
+}
